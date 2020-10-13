@@ -7,8 +7,9 @@ int main()
     int fact_val = factorial(5);
     int prime_val = isPrime(3);
     int palind_val = isPalindrome(12321);
+    int sum = vsum(3,41,32,60);
     
-    printf("factorial = %d, prime? %d, palindrome? %d \n",fact_val,prime_val,palind_val);
+    printf("factorial = %d, prime? %d, palindrome? %d vsum = %d \n",fact_val,prime_val,palind_val,sum);
 
     char string1[10] = "potatoes";
     char string2[10] = "potaters";
