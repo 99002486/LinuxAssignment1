@@ -13,6 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
+    - name: make assignment1a
       run: make out -C Linux_assignment1a
+    - name: make assignment1a
+      run: make out -C Linux_assignment1b
+    - name: make assignment2
+      run: make out -C Linux_assignment2
+    - name: make assignment3
+      run: make out -C Linux_assignment3
+      
 
